@@ -1,70 +1,27 @@
-Got it 👍 Here’s a clean **README.md** for your repo:
+# Twowaybinding
 
-````markdown
-# Angular Two-Way Data Binding Example with ngModel
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.0.
 
-This project demonstrates **two-way data binding** in Angular using `[(ngModel)]`.  
-It includes a simple signup form where user inputs are instantly synchronized with the component model, showing how Angular efficiently binds data between the template and the class.  
+## Development server
 
----
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## 🚀 Features
-- Two-way data binding using `[(ngModel)]`
-- Simple signup form with fields (name, email, password, phone, country, gender)
-- Data captured in a model object and displayed in the console
-- Beginner-friendly Angular project structure
+## Code scaffolding
 
----
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## 📂 Project Structure
-- **home** → Landing page with navigation  
-- **login** → Dummy login form with console output  
-- **signup** → Signup form demonstrating two-way data binding  
-- **dashboard** → Dummy dashboard after login/signup  
+## Build
 
----
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## 🛠️ Technologies Used
-- Angular 16+
-- TypeScript
-- HTML & CSS (Bootstrap styling optional)
+## Running unit tests
 
----
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## ▶️ Getting Started
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/angular-two-way-binding.git
-````
+## Running end-to-end tests
 
-2. Navigate into the project folder:
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-   ```bash
-   cd angular-two-way-binding
-   ```
-3. Install dependencies:
+## Further help
 
-   ```bash
-   npm install
-   ```
-4. Run the app:
-
-bash
-   ng serve
-
-5. Open in browser:
-
-   http://localhost:4200
-
-
-Demo
-
-When you type into the signup form fields, values are instantly updated in the `model` object.
-On clicking **Sign Up**, the data is printed in the browser console.
-
-
-
-License
-
-This project is licensed under the MIT License.
-
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
